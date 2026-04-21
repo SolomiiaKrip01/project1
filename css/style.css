@@ -51,25 +51,25 @@ button {
 
 /* --- 3. Хедер (Навігація) --- */
 .header-wrapper {
-  background-color: #fdfdfd;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
+  background-color: #44423ecc;
 }
 
 .header .logo {
   font-size: 28px;
   letter-spacing: 2px;
+  color: #ffffff;
 }
 
 .header .date {
   font-size: 12px;
   text-transform: uppercase;
-  color: #888;
+  color: #ffffff;
 }
 .header ul {
   display: flex;
@@ -84,10 +84,9 @@ button {
   transition: border-color 0.3s;
 }
 
-.header ul a:hover {
-  border-bottom: 1px solid #333;
+.header-nav-list a {
+  background-color#ffffff;
 }
-
 /* --- 4. Hero Секція (Заголовок) --- */
 .wedding-title {
   font-size: clamp(40px, 8vw, 80px); /* Адаптивний розмір шрифту */
