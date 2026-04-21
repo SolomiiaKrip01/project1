@@ -57,7 +57,12 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #44423ecc;
+  background-color: rgba(68, 66, 62, 0.7);
+  padding: 10px 48px;
+}
+
+.date {
+  padding-right: 587px;
 }
 
 .header .logo {
@@ -85,7 +90,7 @@ button {
 }
 
 .header-nav-list a {
-  background-color#ffffff;
+  color: #ffffff;
 }
 /* --- 4. Hero Секція (Заголовок) --- */
 .wedding-title {
@@ -229,6 +234,6 @@ button {
   color: #000000;
   letter-spacing: 1px;
   font-size: 32px;
-  margin-left: 493px;
-  margin-right: 493px;
+  margin-left: 510px;
+  margin-right: 510px;
 }
