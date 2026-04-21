@@ -1,0 +1,22 @@
+/* --- Footer --- */
+.footer {
+  text-align: center;
+  padding: 60px 0;
+  border-top: 1px solid #eee;
+  background-color: #e1dbcb;
+}
+
+.logo-footer {
+  color: #000000;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+.date-title {
+  margin-top: 10px;
+  color: #000000;
+  letter-spacing: 1px;
+  font-size: 32px;
+  margin-left: 493px;
+  margin-right: 493px;
+}
